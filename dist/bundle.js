@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=new(function(){function t(t){this.greeting=t}return t.prototype.greet=function(){return"hello, "+this.greeting},t}())("world"),e=document.createElement("button");e.textContent="greeting",e.onclick=function(){alert(t.greet())},document.body.append(e)})();
