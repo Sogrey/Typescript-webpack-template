@@ -1,15 +1,12 @@
-import {Greeter} from './model/Greeter';
+import { Greeter } from './model/Greeter';
 
-let greeter = new Greeter("world");
+const TW = {
+    VERSION:"0.0.1",
+    test: () => {
+        console.log("Hi,It's running.");
+    },
+    
+    Greeter: Greeter,
+}
 
-console.log(greeter.greet());
-
-// export default {
-//     Greeter : Greeter
-// };
-
-
-
-// declare module "TS" {
-// }
-// declare module "./model/Greeter" { import { Greeter } from './model/Greeter'; export default Greeter; }
+export default TW;
