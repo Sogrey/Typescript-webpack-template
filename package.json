@@ -4,8 +4,11 @@
   "description": "Sample template project for packaging typescript using webpack",
   "main": "index.js",
   "scripts": {
-    "build:dev":"webpack --mode=development",
-    "build":"webpack --mode=production",
+    "clean": "rm -rf dist dist.tsc",
+    "clean:tsc": "rm -rf dist.tsc",
+    "tsc": "yarn clean & npx tsc -p .",
+    "build:dev": "yarn tsc & webpack --mode=development & yarn clean:tsc",
+    "build": "yarn tsc & webpack --mode=production & yarn clean:tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

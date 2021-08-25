@@ -1,7 +1,8 @@
 const path = require('path')
  
 module.exports = {
-    entry: './src/index.ts', // 源入口
+    // entry: './src/index.ts', // 源入口
+    entry: './dist.tsc/src/index.js', // 源入口 转为 typescript 编译后目录入口文件
     module: {
         rules: [{
             test: /\.tsx?$/,
