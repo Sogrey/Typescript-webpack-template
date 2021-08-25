@@ -1,4 +1,4 @@
-class Greeter {
+export class Greeter {
     greeting: string;
     constructor(message: string) {
         this.greeting = message;
@@ -6,9 +6,4 @@ class Greeter {
     greet() {
         return "Hello, " + this.greeting;
     }
-}
-
-
-export {
-    Greeter
 }

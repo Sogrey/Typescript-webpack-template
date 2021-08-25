@@ -16,7 +16,7 @@
   \*******************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nvar Greeter_1 = __webpack_require__(/*! ./model/Greeter */ \"./dist.tsc/src/model/Greeter.js\");\r\nvar greeter = new Greeter_1.Greeter(\"world\");\r\nconsole.log(greeter.greet());\r\n// export default {\r\n//     Greeter : Greeter\r\n// };\r\n// declare module \"TS\" {\r\n// }\r\n// declare module \"./model/Greeter\" { import { Greeter } from './model/Greeter'; export default Greeter; }\r\n\n\n//# sourceURL=webpack://typescript-webpack-template/./dist.tsc/src/index.js?");
+eval("\r\n// import { Greeter } from './model/Greeter';\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Greeter = void 0;\r\n// const TW = {\r\n//     VERSION:\"0.0.1\",\r\n//     test: () => {\r\n//         console.log(\"Hi,It's running.\");\r\n//     },\r\n//     Greeter: Greeter,\r\n// }\r\n// export default TW;\r\nvar Greeter_1 = __webpack_require__(/*! ./model/Greeter */ \"./dist.tsc/src/model/Greeter.js\");\r\nObject.defineProperty(exports, \"Greeter\", ({ enumerable: true, get: function () { return Greeter_1.Greeter; } }));\r\n\n\n//# sourceURL=webpack://typescript-webpack-template/./dist.tsc/src/index.js?");
 
 /***/ }),
 

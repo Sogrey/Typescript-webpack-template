@@ -2,6 +2,11 @@
 Typescript webpack 打包
 
 ``` bash
-npm run build:dev # 开发包
-npm run build     # 生产包
+# 开发包
+yarn build:dev
+npm run build:dev 
+
+# 生产包
+yarn build
+npm run build     
 ```

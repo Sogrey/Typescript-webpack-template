@@ -7,7 +7,7 @@
     "clean": "rm -rf dist dist.tsc",
     "clean:tsc": "rm -rf dist.tsc",
     "tsc": "yarn clean & npx tsc -p .",
-    "build:dev": "yarn tsc & webpack --mode=development & yarn clean:tsc",
+    "build:dev": "yarn tsc & webpack --mode=development",
     "build": "yarn tsc & webpack --mode=production & yarn clean:tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
