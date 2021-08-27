@@ -10,5 +10,3 @@ const TW = {
 }
 
 export default TW;
-
-// export { Greeter as Greeter }; 
