@@ -16,7 +16,11 @@
   \*******************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+<<<<<<< HEAD
 eval("\r\n// import { Greeter } from './model/Greeter';\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Greeter = void 0;\r\n// const TW = {\r\n//     VERSION:\"0.0.1\",\r\n//     test: () => {\r\n//         console.log(\"Hi,It's running.\");\r\n//     },\r\n//     Greeter: Greeter,\r\n// }\r\n// export default TW;\r\nvar Greeter_1 = __webpack_require__(/*! ./model/Greeter */ \"./dist.tsc/src/model/Greeter.js\");\r\nObject.defineProperty(exports, \"Greeter\", ({ enumerable: true, get: function () { return Greeter_1.Greeter; } }));\r\n\n\n//# sourceURL=webpack://typescript-webpack-template/./dist.tsc/src/index.js?");
+=======
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nvar Greeter_1 = __webpack_require__(/*! ./model/Greeter */ \"./dist.tsc/src/model/Greeter.js\");\r\nvar TW = {\r\n    VERSION: \"0.0.1\",\r\n    test: function () {\r\n        console.log(\"Hi,It's running.\");\r\n    },\r\n    Greeter: Greeter_1.Greeter,\r\n};\r\nexports.default = TW;\r\n\n\n//# sourceURL=webpack://typescript-webpack-template/./dist.tsc/src/index.js?");
+>>>>>>> 51a630930c9c1f68d2614e30f56dda117d75b541
 
 /***/ }),
 

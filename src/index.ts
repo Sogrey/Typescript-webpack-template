@@ -10,5 +10,8 @@ const TW = {
 }
 
 export default TW;
+<<<<<<< HEAD
 
 // export { Greeter as Greeter }; 
+=======
+>>>>>>> 51a630930c9c1f68d2614e30f56dda117d75b541
